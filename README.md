@@ -2,6 +2,14 @@ This repository contains an [Ansible](http://www.ansible.com/) playbook
 to create machines in [Digital Ocean](https://www.digitalocean.com/) and
 add entries for each to DNS using the [DNSimple](http://dnsimple.com) API.
 
+## Installation
+
+This project has a few python dependencies.
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Usage
 
 Note that this assumes you have a DigitalOcean and DNSimple account and
